@@ -1,0 +1,20 @@
+<form class="example-form">
+
+
+    <div>
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Código</mat-label>
+         <input matInput [(ngModel)]='codigoSucursalInput' name="inputCodigoSucursal">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Nombre</mat-label>
+         <input matInput [(ngModel)]='nombreSucursalInput' name="inputNombreSucursal">
+     </mat-form-field>
+    </div>
+
+     <button mat-raised-button color="primary" (click)="crearSucursal()">Agregar</button>
+
+
+
+   </form>

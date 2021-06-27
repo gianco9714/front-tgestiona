@@ -1,0 +1,35 @@
+<form class="example-form">
+
+
+    <div>
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Código</mat-label>
+         <input matInput [(ngModel)]='codigoUsuarioInput' name="codigoUsuarioInput">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Nombre</mat-label>
+         <input matInput [(ngModel)]='nombreUsuarioInput' name="nombreUsuarioInput">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Usuario</mat-label>
+         <input matInput [(ngModel)]='usuarioUsuarioInput' name="usuarioUsuarioInput">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Contraseña</mat-label>
+         <input matInput [(ngModel)]='passwordUsuarioInput' name="passwordUsuarioInput">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Cód. Sucursal</mat-label>
+         <input matInput [(ngModel)]='codSucUsuarioInput' name="codSucUsuarioInput">
+     </mat-form-field>
+    </div>
+
+     <button mat-raised-button color="primary"  (click)="crearUsuario()">Agregar</button>
+
+
+
+   </form>

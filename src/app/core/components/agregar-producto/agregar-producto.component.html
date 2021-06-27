@@ -1,0 +1,26 @@
+<form class="example-form">
+
+
+    <div>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Código</mat-label>
+        <input matInput [(ngModel)]='codigoProductoInput' name="codigoProductoInput">
+      </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Nombre</mat-label>
+         <input matInput [(ngModel)]='nombreProductoInput' name="nombreProductoInput">
+     </mat-form-field>
+
+     <mat-form-field class="example-full-width" appearance="fill">
+         <mat-label>Precio</mat-label>
+         <input matInput [(ngModel)]='precioProductoInput' name="precioProductoInput">
+     </mat-form-field>
+    </div>
+
+     <button mat-raised-button color="primary" (click)="crearProducto()">Agregar</button>
+
+
+
+   </form>
